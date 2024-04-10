@@ -1,0 +1,19 @@
+.container{
+    background-color: blanchedalmond;
+    width:500px;
+    height:300px;
+    margin:8px;
+    border: 2px solid  grey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.flexbox {
+    background-color: aquamarine;
+    width:50px;
+    height:30px;
+    margin:2px;
+    border:2px solid darkcyan;
+}
