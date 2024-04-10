@@ -40,8 +40,8 @@ function playRound(playerSelection, computerSelection) {
 function game() {
     while (playerScore < 5 && computerScore < 5) {
         let computerSelection = getComputerChoice();
-        playRound(playerSelection, computerSelection)
-        console.log(roundWinner)
+        playRound(playerSelection, computerSelection);
+        console.log("Computer plays " + computerSelection + " " + roundWinner + " wins!");
     }
     if (playerScore == 5) {
         console.log("Player Wins!!")
