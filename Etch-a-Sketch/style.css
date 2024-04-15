@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    margin:0;
+    border:0;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 64px;
+    margin: 24px;
+}
+.block {
+    height: 100%;
+    width: 100%;
+}
+.containerGrid {
+    width: 512px;
+    height: 512px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.line {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#btn {
+    display:inline-block;
+    margin-bottom: 16px;
+    font-family: inherit;
+}
