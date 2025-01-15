@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #a9792b;
+    margin-bottom: 20px;
+}
+.title {
+    margin: 12px;
+    font-size: 50px;
+    color: #FFF;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+}
+.bold {
+    font-weight: 800;
+}
+.emoji {
+    width:120px;
+    height:120px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    user-select:none
+}
+.gameresult {
+    height: 30px;
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.choicetext {
+    padding: 10px 0 10px 0;
+    margin:10px;
+    border-top: 2px solid black;
+    text-align: center;
+    width: 100%;
+}
+.choices {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placar {
+    font-size: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placar div {
+    flex:1;
+    text-align: center;
+}
+.botao {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.reset {
+    text-align: center;
+    background-color: #ff9966;
+    border: 1px thin grey;
+    padding: 5px 12px 5px 12px;
+    font-weight: 700;
+}
